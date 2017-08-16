@@ -1,0 +1,28 @@
+{
+  "name": "deplix",
+  "version": "1.0.3",
+  "description": "Simple deploy using git and pm2",
+  "main": "./index.js",
+  "dependencies": {
+    "portfinder": "^1.0.13",
+    "semver": "^5.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "bin": {
+    "deplix": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatogama/deployr.git"
+  },
+  "author": "Renato Gama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renatogama/deployr/issues"
+  },
+  "preferGlobal": "true",
+  "homepage": "https://github.com/renatogama/deployr#readme"
+}
